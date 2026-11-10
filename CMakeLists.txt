@@ -33,6 +33,11 @@ find_package(rosidl_default_generators REQUIRED)
 ################################################################################
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DynamixelState.msg"
+  "msg/DynamixelMsgs.msg"
+  "msg/DynamixelControlMsgs.msg"
+  "msg/PanTilt.msg"
+  "msg/DynamixelMotorState.msg"
+  "msg/DynamixelStateMsgs.msg"
   "srv/GetDataFromDxl.srv"
   "srv/SetDataToDxl.srv"
   "srv/RebootDxl.srv"
